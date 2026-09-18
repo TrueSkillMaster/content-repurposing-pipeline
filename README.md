@@ -2,9 +2,11 @@
 
 One YouTube video in, a week of social content out. A URL submitted through a form becomes a transcript, four platform-specific posts, matching AI images, a moderation queue — and, after approval, published posts.
 
-**Status:** delivered (2026). Cuts manual content production time by ~90%.
+**Origin:** training build from the AI-automation program I completed (Nov 2025 – Apr 2026) — fully working end to end, kept for personal use. Not a client order. The goal: one video becomes a week of content for four platforms, with a human only reviewing.
 
-> Architecture is documented here. Assistant instructions, API keys and the client's accounts are not included.
+Full case in the portfolio: [01-omnichannel-content-factory](https://github.com/TrueSkillMaster/portfolio/blob/main/01-omnichannel-content-factory.md).
+
+> Architecture is documented here. Assistant instructions and API keys are not included.
 
 ---
 
@@ -44,7 +46,9 @@ A creator publishes long-form video but has no time to turn each one into posts 
 |---|---|---|
 | Prep per video | ~30 min of manual transcript work | automatic |
 | Content per video | written by hand, often skipped | 4 platform-specific posts + images |
-| Total manual time | baseline | ~−90% (review and approval only) |
+| Human work | writing everything | review and approval only |
+
+Exact time saved depends on how much moderation the owner wants and how structured the source video is; a hard number needs a production run.
 
 ## Stack
 
